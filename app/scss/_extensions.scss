@@ -1,0 +1,29 @@
+@use "variables";
+
+%heading {
+    display: flex;
+    flex-direction: column;
+}
+
+%section-main {
+    gap: 2.625rem 0;
+}
+
+%button {
+    border-radius: 1.75rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.125rem 0;
+    width: 17.5rem;
+}
+
+%button--main {
+    background-color: variables.$blue;
+    color: variables.$white;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: variables.$cyan;
+    }
+}
