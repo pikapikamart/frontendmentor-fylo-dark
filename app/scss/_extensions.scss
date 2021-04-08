@@ -21,9 +21,10 @@
     background-color: variables.$blue;
     color: variables.$white;
     font-weight: 700;
-    transition: background-color 0.3s ease;
+    
 
     &:hover {
         background-color: variables.$cyan;
+        transition: background-color 0.3s ease;
     }
 }
