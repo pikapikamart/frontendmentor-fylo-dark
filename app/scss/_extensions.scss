@@ -13,8 +13,14 @@
     border-radius: 1.75rem;
     display: flex;
     justify-content: center;
+    outline: none;
     padding: 1.125rem 0;
     width: 17.5rem;
+
+    &:focus {
+        box-shadow: 0 0 1px 0.1rem #1b212f,
+                    0 0 1px 0.2rem #FFFFFF;
+    }
 }
 
 %button--main {
@@ -22,7 +28,6 @@
     color: variables.$white;
     font-weight: 700;
     
-
     &:hover {
         background-color: variables.$cyan;
         transition: background-color 0.3s ease;
