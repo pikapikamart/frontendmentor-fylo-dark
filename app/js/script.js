@@ -11,7 +11,7 @@ class Observer {
         const inViewport = (entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add(this.effect, entry.isIntersecting);
+                    entry.target.classList.add(this.effect);
                 }
 
             })
